@@ -47,7 +47,7 @@ int main() {
         scanf("%lld%lld%lld", &A, &B, &C);
         if(find_any_solution(A, B, C, x, y, g)) printf("Case %d: Yes\n", ii);
         else printf("Case %d: No\n", ii);
-        cout << x << " " << y << " " << g << endl;
+        //cout << x << " " << y << " " << g << endl;
 
     }
     return 0;
