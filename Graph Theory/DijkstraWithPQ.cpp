@@ -16,7 +16,6 @@ ll d[maxn], p[maxn];
 
 void dijkstra(int root){
     for(int i=2;i<=n;i++) d[i] = inf;
-
     priority_queue <pii, vector<pii>, greater<pii> > pq;
     pq.push({0, root});
     while(!pq.empty()){
