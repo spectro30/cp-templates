@@ -1,2 +1,0 @@
-# cpCodeBase
-Programming Contest Codes
